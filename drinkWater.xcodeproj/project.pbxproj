@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D5BBB09929470087005AB7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB09829470087005AB7A3 /* AppDelegate.swift */; };
 		D5BBB09B29470087005AB7A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB09A29470087005AB7A3 /* SceneDelegate.swift */; };
-		D5BBB09D29470087005AB7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB09C29470087005AB7A3 /* ViewController.swift */; };
-		D5BBB0A029470087005AB7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB09E29470087005AB7A3 /* Main.storyboard */; };
 		D5BBB0A229470088005AB7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0A129470088005AB7A3 /* Assets.xcassets */; };
 		D5BBB0A529470088005AB7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0A329470088005AB7A3 /* LaunchScreen.storyboard */; };
+		D5BBB0AD2947009F005AB7A3 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0AC2947009F005AB7A3 /* AlertListViewController.swift */; };
+		D5BBB0AF294700EB005AB7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0AE294700EB005AB7A3 /* Main.storyboard */; };
+		D5BBB0B429471289005AB7A3 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0B229471289005AB7A3 /* AlertListCell.swift */; };
+		D5BBB0B529471289005AB7A3 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0B329471289005AB7A3 /* AlertListCell.xib */; };
+		D5BBB0B729471434005AB7A3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0B629471434005AB7A3 /* Alert.swift */; };
+		D5BBB0B929471798005AB7A3 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0B829471798005AB7A3 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5BBB09529470087005AB7A3 /* drinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BBB09829470087005AB7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5BBB09A29470087005AB7A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5BBB09C29470087005AB7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5BBB09F29470087005AB7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5BBB0A129470088005AB7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BBB0A429470088005AB7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5BBB0A629470088005AB7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BBB0AC2947009F005AB7A3 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		D5BBB0AE294700EB005AB7A3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D5BBB0B229471289005AB7A3 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		D5BBB0B329471289005AB7A3 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		D5BBB0B629471434005AB7A3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D5BBB0B829471798005AB7A3 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				D5BBB09829470087005AB7A3 /* AppDelegate.swift */,
 				D5BBB09A29470087005AB7A3 /* SceneDelegate.swift */,
-				D5BBB09C29470087005AB7A3 /* ViewController.swift */,
-				D5BBB09E29470087005AB7A3 /* Main.storyboard */,
 				D5BBB0A129470088005AB7A3 /* Assets.xcassets */,
 				D5BBB0A329470088005AB7A3 /* LaunchScreen.storyboard */,
 				D5BBB0A629470088005AB7A3 /* Info.plist */,
+				D5BBB0AC2947009F005AB7A3 /* AlertListViewController.swift */,
+				D5BBB0AE294700EB005AB7A3 /* Main.storyboard */,
+				D5BBB0B229471289005AB7A3 /* AlertListCell.swift */,
+				D5BBB0B329471289005AB7A3 /* AlertListCell.xib */,
+				D5BBB0B629471434005AB7A3 /* Alert.swift */,
+				D5BBB0B829471798005AB7A3 /* AddAlertViewController.swift */,
 			);
 			path = drinkWater;
 			sourceTree = "<group>";
@@ -125,9 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BBB0AF294700EB005AB7A3 /* Main.storyboard in Resources */,
 				D5BBB0A529470088005AB7A3 /* LaunchScreen.storyboard in Resources */,
+				D5BBB0B529471289005AB7A3 /* AlertListCell.xib in Resources */,
 				D5BBB0A229470088005AB7A3 /* Assets.xcassets in Resources */,
-				D5BBB0A029470087005AB7A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +151,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BBB09D29470087005AB7A3 /* ViewController.swift in Sources */,
 				D5BBB09929470087005AB7A3 /* AppDelegate.swift in Sources */,
 				D5BBB09B29470087005AB7A3 /* SceneDelegate.swift in Sources */,
+				D5BBB0B429471289005AB7A3 /* AlertListCell.swift in Sources */,
+				D5BBB0B729471434005AB7A3 /* Alert.swift in Sources */,
+				D5BBB0AD2947009F005AB7A3 /* AlertListViewController.swift in Sources */,
+				D5BBB0B929471798005AB7A3 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5BBB09E29470087005AB7A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5BBB09F29470087005AB7A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D5BBB0A329470088005AB7A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
